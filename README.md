@@ -4,7 +4,7 @@ Chapter 6. 인터페이스 설계하기
 1) community -> icon 검색 -> plugin -> iconify 플러그인 설치
 2) 와이어프레임 page -> 플러그인 -> iconify 패널 띄움 - 검색
    - 아이콘은 벡터 형태로 저장됨
-   - [back]은 [<](chevron)
+   - [back]은 [<] chevron
 3) 아이콘 선택 및 customize icon -> parent layer and alignment (패널 하단에 어느 frame, 상하좌우/센터 어느 위치에 불러올지 설정) -> drag&drop or 불러올 위치 select해두고 [import icon] 클릭
 
 # Auto Layout의 개념 이해하기
