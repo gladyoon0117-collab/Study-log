@@ -1,4 +1,4 @@
-Chapter 6. 인터페이스 설계하기
+Chapter 6. 인터페이스 설계하기 - 이론
 
 # 와이어프레임에 빠르게 아이콘 넣기 위한 iconify 플러그인
 1) community -> icon 검색 -> plugin -> iconify 플러그인 설치
@@ -6,6 +6,11 @@ Chapter 6. 인터페이스 설계하기
    - 아이콘은 벡터 형태로 저장됨
    - [back]은 [<] chevron
 3) 아이콘 선택 및 customize icon -> parent layer and alignment (패널 하단에 어느 frame, 상하좌우/센터 어느 위치에 불러올지 설정) -> drag&drop or 불러올 위치 select해두고 [import icon] 클릭
+
+# 와이어프레임 플로우를 연결하는 autoflow 플러그인 사용하기
+1) community -> flow 검색 -> plugin -> autoflow 플러그인 설치
+2) 와이어프레임 page -> 플러그인 -> autoflow -> 출발 요소 A와 도착 요소 B 함께 select -> 둘 사이 화살표 표시됨. 프레임 옮겨도 그 화살표 움직임. -> 화살표 각각에 대한 layer 생성
+3) layer 속성 수정 가능 : 필요한 layer들 선택 후 autoflow 패널에서 color나 stroke 두께, 점선 등 수정 가능.
 
 # Auto Layout의 개념 이해하기
 Auto Layout(이하 AL) : 여러 형태의 UI 요소가 있고, 웹/모바일과 변동되는 요소들에 상관없이 동일한 레이아웃으로 사용하기 위해 설정하는 기능
