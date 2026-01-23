@@ -16,8 +16,11 @@ Auto Layout(이하 AL) : 여러 형태의 UI 요소가 있고, 웹/모바일과 
 1) Constraints : frame을 기준으로 그 안 요소에 제약을 둬서 frame 사이즈 조절할 때 안쪽 요소의 위치 설정하는 기능
    - e.g. 하단+왼쪽 select = 그 밖 frame을 늘렸을 때 하단 왼쪽은 고정되고 늘어남.
 2) Resizing : AL된 상태에서 상세 속성으로 지정할 수 있는 기능.
-   - Container : 요소를 감싼 요소(frame). 컨테이너 대비해 안쪽 요소의 사이즈를 조정하거나 앙쪽 요소에 대비해 컨테이너 사이즈 조정하는기능.
-   - padding처럼 안쪽 요소의 사이즈를 fixed width/fixed height -> fit container
+   - Container : 안쪽 요소를 감싼 요소(frame). 컨테이너 대비해 안쪽 요소의 사이즈를 조정하거나 앙쪽 요소에 대비해 컨테이너 사이즈 조정하는기능.
+   - 안쪽 요소 select -> 우측 패널 resizing에서 fixed width/fixed height(가로/세로 고정) -> 남은 가로 여백을 채우려면 padding처럼 가로를 fill container
    - 요소를 끌어서 순서 변경도 가능.
-   - 두 개 이상이 fill이면 균등하게 분배돼서 채워짐.
-   - Container resizing : 
+   - 두 개 이상이 fill이면 균일하게 분배돼서 채워짐.
+   - Container 또한 Constraints and resizing에서 가로/세로 각각을 fixed/hug contents와 상하좌우중앙으로 지정 가능.
+     - hug contents : 요소 사이즈와 컨테이너-요소 간 padding을 합친 그 길이로 컨테이너 너비/높이를 만들겠다.
+     - fixed : 안쪽 요소 사이즈가 변경되어도 컨테이너 너비/높이는 고정.
+3) frame 기준으로 했을 때 AL 요소에서는 Constraints and resizing 같이 지정 가능, AL 안쪽 요소에서는 resizing만 할 수 있음.
