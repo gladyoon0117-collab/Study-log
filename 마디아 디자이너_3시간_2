@@ -1,0 +1,7 @@
+# auto layout
+- gap : 요소 간 margin. 고정값. margin 클릭하면 뜨는 수치 변경하거나, 우측 AL 패널에서 값 수정해서 값 변경할 수 있음.
+- AL 패널 내 flow : 가로 방향으로 묶이느냐, 세로 방향으로 묶이느냐
+- background+요소들 그룹(command+G) 해서 그룹화된 거 그대로 AL 걸어도 됨.
+- command+shift+G or 우클릭 후 ungroup : 그룹 해제
+- padding : AL 걸린 요소 한 그룹의 양옆 여백 값, 상하 여백 값
+- fill : 그 요소 뒤에 깔리는 색. text 잡고 fill 누르면 배경 채워지듯.
