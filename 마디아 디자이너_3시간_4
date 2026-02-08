@@ -1,0 +1,8 @@
+# 어제 실습 A/S... + Component (2월 8일 
+- component 걸면 자동으로 assets에 추가됨.
+- create component : 전체를 통으로 component 거는 기능
+  - e.g. 프로젝트에서 쓰는 버튼 종류가 9개일 때 : 전체 drag + 우측 패널에서 create component(통으로 component 거는 기능) + 좌측 패널 assets에서 통째로 걸린 frame 찾을 수 있음.
+- create multiple components
+  - 최소 2개 이상의 레이어나 프레임을 한꺼번에 잡아야 메뉴가 활성화됨.
+  - 전체 drag했어도 전부 개별적으로 걸림 -> assets에서 확인 가능
+- create component set : component가 통째로 걸리기는 하지만 set로 걸림. 그래야 속성별로 하나하나 선택을 할 수 있게됨.
